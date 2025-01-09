@@ -4,12 +4,15 @@ Project Overview
 * Objective: Create a Natural Language Processing (NLP) tool to categorise messages for disaster response.
 * Dataset: Pre-labeled tweets and messages from real-world disasters, sourced from Figure Eight.
 
-Key Features
+Key Features:
+
 1️⃣ ETL Pipeline
 * Extracted, cleaned, and stored data in a SQLite database.
+  
 2️⃣ ML Pipeline
 * Developed a classification model to categorise messages effectively.
 * Included text processing, model training, and hyper-parameter tuning using GridSearchCV.
+  
 3️⃣ Web Application
 * Designed an interactive web app to display dataset insights and test the model’s predictions.
 
